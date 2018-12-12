@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MVVMWeatherApp.Core.Services
+﻿namespace MVVMWeatherApp.Core.Services
 {
     public interface IProgressService
     {

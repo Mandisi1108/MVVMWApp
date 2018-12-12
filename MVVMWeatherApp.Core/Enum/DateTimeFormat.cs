@@ -1,4 +1,4 @@
-﻿namespace MVVMWeatherApp.Core.Enums
+﻿namespace MVVMWeatherApp.Core.Enum
 {
     public enum DateTimeFormat
     {

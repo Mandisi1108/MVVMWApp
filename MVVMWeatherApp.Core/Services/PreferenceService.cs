@@ -1,5 +1,5 @@
-﻿using System;
-using MVVMWeatherApp.Core.Enums;
+﻿using MVVMWeatherApp.Core.Enum;
+using Xamarin.Essentials;
 
 namespace MVVMWeatherApp.Core.Services
 {
@@ -7,12 +7,12 @@ namespace MVVMWeatherApp.Core.Services
     {
         public string GetValue(PreferenceType Key)
         {
-            return Preference.Get(Key.ToString, string.Empty);
+            return Preferences.Get(Key.ToString(), string.Empty);
         }
 
         public void SaveValue(PreferenceType preferenceType, string Value)
         {
-            Preference.Set(preferenceType.ToString(), Value);
+            Preferences.Set(preferenceType.ToString(), Value);
         }
     }
 }

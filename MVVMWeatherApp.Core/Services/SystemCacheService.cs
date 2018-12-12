@@ -1,8 +1,4 @@
-﻿using MvvmCross;
-using MVVMWeatherApp.Core.POCO;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MVVMWeatherApp.Core.POCO;
 
 namespace MVVMWeatherApp.Core.Services
 {

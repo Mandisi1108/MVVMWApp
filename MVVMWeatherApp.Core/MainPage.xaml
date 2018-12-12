@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage x:TypeArguments="viewModels:WeatherViewModel"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
+    xmlns:viewModels="clr-namespace:MVVMWeatherApp.Core.ViewModels;assembly=MVVMWeatherApp.Core"
+    x:Class="MVVMWeatherApp.Core.MainPage">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <Label Text="City"/>
+            <Entry x:Name="CityEntry"
+                   mvx:Bi.nd="Text City, Mode=TwoWay"/>
+            <Button x:Name="btGetWeather"
+                    Text="Get Weather"
+                    mvx:Bi.nd="Click ButtonCommand, Mode=TwoWay"/>
+        </StackLayout>
+    </ContentPage.Content>
+    </views:MvxContentPage>

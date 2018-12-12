@@ -2,9 +2,6 @@
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using MVVMWeatherApp.Core.Services;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MVVMWeatherApp.Core.ViewModels

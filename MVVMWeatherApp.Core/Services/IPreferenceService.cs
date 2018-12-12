@@ -1,7 +1,4 @@
-﻿using MVVMWeatherApp.Core.Enums;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MVVMWeatherApp.Core.Enum;
 
 namespace MVVMWeatherApp.Core.Services
 {

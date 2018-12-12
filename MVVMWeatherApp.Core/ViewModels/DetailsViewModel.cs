@@ -3,9 +3,6 @@ using MVVMWeatherApp.Core.POCO;
 using MVVMWeatherApp.Core.Services;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-using MVVMWeatherApp.Core.POCO;
 using Java.Sql;
 using Java.Text;
 
